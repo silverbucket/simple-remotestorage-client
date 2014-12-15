@@ -1,0 +1,43 @@
+{
+  "name": "simple-remotestorage-client",
+  "version": "0.0.1",
+  "description": "a simple interface to manage large arrays of objects easily",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "simple",
+    "remotestorage",
+    "client",
+    "remote",
+    "storage",
+    "unhosted"
+  ],
+  "main": "./index.js",
+  "author": {
+    "name": "Nick Jennings",
+    "email": "nick@silverbucket.net"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "jaribu": "^0.2.2",
+    "minify": "^1.0.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jaribu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silverbucket/simple-remotestorage-client.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/silverbucket/simple-remotestorage-client/issues"
+  },
+  "homepage": "https://github.com/silverbucket/simple-remotestorage-client",
+  "dependencies": {
+    "superagent": "^0.21.0"
+  }
+}
